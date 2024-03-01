@@ -1,0 +1,262 @@
+.newsletter {
+    width: 100%;
+    height: 130px;
+    background-color: #e9ecef;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details-d {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon-mail {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    margin-left: -6rem;
+
+}
+
+.Signup {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #343a40;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+.block {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color: #343a40;
+    align-items: center;
+    margin-top: 4.9rem;
+    margin-left: -19.1rem;
+
+}
+
+.input-f {
+    display: flex;
+    align-items: center;
+    /* padding: 50px; */
+}
+
+.input-d {
+    width: 350px;
+    height: 40px;
+    padding: 25px;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #343a40;
+}
+
+.button-f {
+    display: flex;
+    /* margin-right: 2rem; */
+}
+
+.detail-button {
+    padding: 0.9rem;
+    width: 7rem;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.detail-button:hover {
+
+    background: rgb(155, 153, 153);
+
+}
+
+
+
+/* media queries
+ */
+
+
+@media (max-width:1280px) {
+    .Signup {
+        margin-left: 1rem;
+        font-size: 1.6rem;
+
+    }
+
+    .block {
+
+        font-size: 1.1rem;
+
+        margin-left: -15.1rem;
+
+    }
+
+    .icon-mail {
+        height: 32px;
+        /* margin-right: 2rem; */
+        margin-left: 1rem;
+
+    }
+
+    .input-d {
+        width: 300px;
+
+    }
+
+    .detail-button {
+
+        width: 6rem;
+
+        font-size: 16px;
+
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .Signup {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+
+    }
+
+    .block {
+
+        font-size: 1.1rem;
+
+        margin-left: -13.4rem;
+
+    }
+
+    .icon-mail {
+        height: 30px;
+        /* margin-right: 2rem; */
+        margin-left: 1rem;
+
+    }
+
+    .input-d {
+        width: 300px;
+
+    }
+
+    .detail-button {
+
+        width: 6rem;
+
+        font-size: 16px;
+
+    }
+
+}
+
+
+@media (max-width:800px) {
+    .Signup {
+        margin-left: 1rem;
+        font-size: 1.3rem;
+
+    }
+
+    .block {
+
+        font-size: 1rem;
+
+        margin-left: -12.4rem;
+
+    }
+
+    .icon-mail {
+        height: 25px;
+        /* margin-right: 2rem; */
+        margin-left: 1rem;
+
+    }
+
+    .input-d {
+        width: 250px;
+        font-size: 15px;
+
+    }
+
+    .detail-button {
+
+        width: 5rem;
+
+        font-size: 14px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:500px) {
+    .Signup {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+
+    .details-d {
+
+        margin-left: 1rem;
+    }
+
+    .block {
+        margin-top: 3rem;
+
+        font-size: 1rem;
+
+        margin-left: -13rem;
+
+    }
+
+    .icon-mail {
+        height: 25px;
+        /* margin-right: 2rem; */
+        margin-left: 4rem;
+        margin-top: 2rem;
+
+    }
+
+    .input-d {
+        width: 180px;
+        font-size: 15px;
+margin-left: 7rem;
+margin-top: -3rem;
+}
+
+.detail-button {
+        margin-top: -3rem;
+
+        width: 5rem;
+        margin-left: -0.1rem;
+        font-size: 14px;
+
+    }
+
+    .newsletter {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

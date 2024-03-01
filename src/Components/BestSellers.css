@@ -1,0 +1,285 @@
+.h {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 40px;
+
+}
+
+.box {
+    display: flex;
+}
+
+.BS1 {
+    margin-top: 40px;
+    margin-left: 15rem;
+    height: 540px;
+    width: 450px;
+    background: #e9ecef;
+}
+
+.BS2 {
+    margin-top: 40px;
+    margin-left: 9rem;
+    height: 540px;
+    width: 450px;
+    background: #e9ecef;
+}
+
+
+
+.tommy {
+    height: 650px;
+    margin-top: -100px;
+    /* margin-bottom: 10px; */
+}
+
+.calvin {
+    height: 480px;
+    margin-top: -50px;
+}
+
+.box-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+
+   
+}
+
+h2{
+    font-weight: 300;
+}
+
+.bt-1{
+    /* margin-left: 50px; */
+    margin-top: -95px;
+    text-align: center;
+}
+
+.bt-2{
+    /* margin-left: 100px; */
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+/* media queriesb */
+
+@media (max-width:1280px) {
+   .box{
+    margin-left: -9rem;
+   }
+   
+.BS1 {
+    margin-top: 40px;
+    margin-left: 15rem;
+    height: 500px;
+    width: 400px;
+    background: #e9ecef;
+}
+
+.BS2 {
+    margin-top: 40px;
+    margin-left: 9rem;
+    height: 500px;
+    width: 400px;
+    background: #e9ecef;
+}
+.tommy {
+    height: 570px;
+    margin-top: -80px;
+    /* margin-bottom: 10px; */
+}
+
+.calvin {
+    height: 420px;
+    margin-top: -30px;
+}
+
+.bt-1{
+    /* margin-left: 50px; */
+    margin-top: -70px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bt-2{
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+}
+
+
+
+@media (max-width:1024px) {
+   .box{
+    margin-left: -6rem;
+   }
+   
+.BS1 {
+    margin-top: 40px;
+    /* margin-left: 10rem; */
+    height: 450px;
+    width: 350px;
+    background: #e9ecef;
+}
+
+.BS2 {
+    margin-top: 40px;
+    margin-left: 6rem;
+    height: 450px;
+    width: 350px;
+    background: #e9ecef;
+}
+.tommy {
+    height: 500px;
+    margin-top: -60px;
+    /* margin-bottom: 10px; */
+}
+
+.calvin {
+    height: 370px;
+    margin-top: -30px;
+}
+
+.bt-1{
+    /* margin-left: 50px; */
+    margin-top: -70px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bt-2{
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+.h {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-top: 40px;
+
+}
+}
+
+
+
+
+
+@media (max-width:800px) {
+   .box{
+    margin-left: -9.5rem;
+   }
+   
+.BS1 {
+    margin-top: 40px;
+    margin-left: 14rem;
+    height: 350px;
+    width: 300px;
+    background: #e9ecef;
+}
+
+.BS2 {
+    margin-top: 40px;
+    margin-left: 3rem;
+    height: 350px;
+    width: 300px;
+    background: #e9ecef;
+}
+.tommy {
+    height: 400px;
+    margin-top: -60px;
+    /* margin-bottom: 10px; */
+}
+
+.calvin {
+    height: 300px;
+    margin-top: -30px;
+}
+
+.bt-1{
+    /* margin-left: 50px; */
+    margin-top: -40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.bt-2{
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+}
+
+
+
+
+@media (max-width:500px) {
+   .box{
+    /* padding: 10px; */
+    margin-left: -9.9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.BS1 {
+    margin-top: 40px;
+    margin-left: 14rem;
+    height: 300px;
+    width: 280px;
+    background: #e9ecef;
+}
+
+.BS2 {
+    margin-top: 40px;
+    margin-left: 14rem;
+    
+    height: 300px;
+    width: 280px;
+    background: #e9ecef;
+}
+.tommy {
+    height: 370px;
+    margin-top: -60px;
+    margin-left: 1rem;
+    /* margin-bottom: 10px; */
+}
+
+.calvin {
+    height: 260px;
+    margin-left: 1rem;
+    margin-top: -30px;
+}
+
+.bt-1{
+    /* margin-left: 50px; */
+    margin-top: -60px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.bt-2{
+    /* margin-left: 100px; */
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.h {
+
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 40px;
+
+}
+}
+
+
+
